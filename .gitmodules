@@ -1,0 +1,3 @@
+[submodule "boilerplate-demographic-data-analyzer"]
+	path = boilerplate-demographic-data-analyzer
+	url = https://github.com/freeCodeCamp/boilerplate-demographic-data-analyzer.git
