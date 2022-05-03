@@ -1,15 +1,14 @@
 //! moment.js locale configuration
-//! locale : Korean [ko]
+//! locale : korean (ko)
 //!
 //! authors
 //!
 //! - Kyungwook, Park : https://github.com/kyungw00k
 //! - Jeeeyul Lee <jeeeyul@gmail.com>
 
-;(function (global, factory) {
-   typeof exports === 'object' && typeof module !== 'undefined'
-       && typeof require === 'function' ? factory(require('../moment')) :
-   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
+(function (global, factory) {
+   typeof exports === 'object' && typeof module !== 'undefined' ? factory(require('../moment')) :
+   typeof define === 'function' && define.amd ? define(['moment'], factory) :
    factory(global.moment)
 }(this, function (moment) { 'use strict';
 
@@ -25,8 +24,8 @@
             LTS : 'A h시 m분 s초',
             L : 'YYYY.MM.DD',
             LL : 'YYYY년 MMMM D일',
-            LLL : 'YYYY년 MMMM D일 A h시 m분',
-            LLLL : 'YYYY년 MMMM D일 dddd A h시 m분'
+            LLL : 'YYYY년 MMMM D일 LT',
+            LLLL : 'YYYY년 MMMM D일 dddd LT'
         },
         calendar : {
             sameDay : '오늘 LT',
@@ -39,17 +38,17 @@
         relativeTime : {
             future : '%s 후',
             past : '%s 전',
-            s : '몇 초',
+            s : '몇초',
             ss : '%d초',
             m : '일분',
             mm : '%d분',
-            h : '한 시간',
+            h : '한시간',
             hh : '%d시간',
             d : '하루',
             dd : '%d일',
-            M : '한 달',
+            M : '한달',
             MM : '%d달',
-            y : '일 년',
+            y : '일년',
             yy : '%d년'
         },
         ordinalParse : /\d{1,2}일/,
