@@ -1,0 +1,26 @@
+{
+	"name": "fcc-learn-npm-package-json",
+	"author": "Sean Coughlin",
+	"description": "Learning NPM with freeCodeCamp",
+	"keywords": [
+		"freeCodeCamp",
+		"Sean",
+		"Coughlin",
+		"npm",
+		"freecodecamp"
+	],
+	"license": "MIT",
+	"version": "0.0.1",
+	"dependencies": {
+		"moment": "2.14.0",
+		"express": "4.14.0"
+	},
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://idontknow/todo.git"
+	}
+}

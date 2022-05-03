@@ -1,0 +1,9 @@
+[submodule "boilerplate-demographic-data-analyzer"]
+	path = boilerplate-demographic-data-analyzer
+	url = https://github.com/freeCodeCamp/boilerplate-demographic-data-analyzer.git
+[submodule "PythonDataAnalysis/boilerplate-medical-data-visualizer"]
+	path = PythonDataAnalysis/boilerplate-medical-data-visualizer
+	url = https://github.com/freeCodeCamp/boilerplate-medical-data-visualizer.git
+[submodule "PythonDataAnalysis/boilerplate-page-view-time-series-visualizer"]
+	path = PythonDataAnalysis/boilerplate-page-view-time-series-visualizer
+	url = https://github.com/freeCodeCamp/boilerplate-page-view-time-series-visualizer.git
