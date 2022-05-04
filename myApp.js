@@ -8,6 +8,11 @@ static = __dirname + "/public/"
 
 app.use('/public', express.static(static))
 
+app.use('/', function(req, res, next) {
+  console.log(req.method + " " + req.url + " - " + req.ip);
+  next();
+})
+
 app.get('/', function(req, res) {
   res.sendFile(absolutePath);
 })
